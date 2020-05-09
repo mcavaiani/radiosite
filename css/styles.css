@@ -1,0 +1,141 @@
+
+body{
+  background-color: black;
+}
+#navbar-section{
+  background-image: url("../images/micBackground-edit.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: auto;
+  height: auto;
+  background-position: center;
+}
+
+.navbar-container{
+  padding: 2% 5%;
+}
+
+
+.title-div{
+text-align: center;
+  margin: 0 5%;
+}
+
+.btn-text{
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+  padding-top: 5%;
+}
+/* .title-container{
+  padding: 3% 15%;
+} */
+.title-text{
+  padding: 5% 0 0 0;
+  width: 100%;
+  border-style: solid;
+border-width: thin;
+  border-color: white;
+}
+.title-h1{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 900;
+  font-size: 6em;
+  line-height: 1;
+  color: white;
+  /* text-shadow:
+    -1px -1px 0px #000,
+     0px -1px 0px #000,
+     1px -1px 0px #000,
+    -1px  0px 0px #000,
+     1px  0px 0px #000,
+    -1px  1px 0px #000,
+     0px  1px 0px #000,
+     1px  1px 0px #000; */
+}
+
+.title-h3{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 400;
+  font-size: 2em;
+  color: white;
+  padding-bottom: 5%;
+}
+
+
+
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  vertical-align: middle;
+}
+
+.dwn-btn{
+  margin: 0 2% 5% 0;
+}
+
+
+/* PROGRAMS */
+
+#programs{
+  text-align: center;
+  /* background-color: white; */
+  font-family: 'Poppins', sans-serif;
+}
+
+.myPrograms{
+  padding: 5% 0 2%;
+  color: #323232;
+
+}
+.programs-title{
+  font-family: 'Poppins', sans-serif;
+  font-size:2rem;
+  font-weight: 600;
+}
+
+.h-line-programs{
+  background-color: #323232;
+}
+/*  SLIDER   */
+.wrapper{
+  padding: 0 10%;
+}
+
+
+.single-testimonial{
+  text-align: center;
+  color: #323232;
+}
+
+.img-area{
+  padding: 5% 15%;
+}
+
+.img-item{
+
+}
+
+.owl-stage-outer{
+  border: 1px;
+  border-color: #323232;
+}
+
+.owl-nav{
+  text-align: center;
+  padding: 2% 0;
+}
+
+.owl-carousel .owl-nav .owl-prev{
+    width: 5%;
+    display: inline-block;
+    color: #323232;
+
+}
+
+.owl-carousel .owl-nav .owl-next{
+    width: 5%;
+    display: inline-block;
+    color: #323232;
+
+}
