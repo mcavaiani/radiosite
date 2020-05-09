@@ -1,6 +1,7 @@
 
 body{
-  background-color: black;
+  /* background-color: #40514e; */
+  font-family: 'Josefin Sans', sans-serif;
 }
 #navbar-section{
   background-image: url("../images/micBackground-edit.jpg");
@@ -15,7 +16,14 @@ body{
   padding: 2% 5%;
 }
 
+.nav-droplist{
+  background-color: ;
 
+}
+
+.dropdown-item{
+  font-size: 1em;
+}
 .title-div{
 text-align: center;
   margin: 0 5%;
@@ -33,13 +41,13 @@ text-align: center;
   padding: 5% 0 0 0;
   width: 100%;
   border-style: solid;
-border-width: thin;
+  border-width: thin;
   border-color: white;
 }
 .title-h1{
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 900;
-  font-size: 6em;
+  font-size: 10vw;
   line-height: 1;
   color: white;
   /* text-shadow:
@@ -56,7 +64,7 @@ border-width: thin;
 .title-h3{
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
-  font-size: 2em;
+  font-size: 3vw;
   color: white;
   padding-bottom: 5%;
 }
@@ -64,7 +72,7 @@ border-width: thin;
 
 
 .navbar-brand{
-  font-family: 'Ubuntu', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   font-size: 2rem;
   vertical-align: middle;
@@ -77,25 +85,48 @@ border-width: thin;
 
 /* PROGRAMS */
 
-#programs{
+#podcasts{
   text-align: center;
-  /* background-color: white; */
-  font-family: 'Poppins', sans-serif;
+  background-color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+#music{
+  text-align: center;
+  background-color: white;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .myPrograms{
-  padding: 5% 0 2%;
-  color: #323232;
-
+  padding: 0 0 2%;
+  color: black;
 }
+
+
+.lastEps{
+  color: black;
+}
+
 .programs-title{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   font-size:2rem;
   font-weight: 600;
+  padding-top: 5%;
 }
 
+.episode-title{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size:2rem;
+  font-weight: 600;
+  padding-top: 1em;
+}
+
+
 .h-line-programs{
-  background-color: #323232;
+  border-style: none;
+  border-top: 7px dotted darkgrey;
+  width: 5%;
+  margin-bottom:0;
 }
 /*  SLIDER   */
 .wrapper{
@@ -105,7 +136,7 @@ border-width: thin;
 
 .single-testimonial{
   text-align: center;
-  color: #323232;
+  color: black;
 }
 
 .img-area{
@@ -118,7 +149,7 @@ border-width: thin;
 
 .owl-stage-outer{
   border: 1px;
-  border-color: #323232;
+  border-color: black;
 }
 
 .owl-nav{
@@ -129,13 +160,63 @@ border-width: thin;
 .owl-carousel .owl-nav .owl-prev{
     width: 5%;
     display: inline-block;
-    color: #323232;
+    color: black;
 
 }
 
 .owl-carousel .owl-nav .owl-next{
     width: 5%;
     display: inline-block;
-    color: #323232;
+    color: black;
+
+}
+
+#social{
+  background-color: #40514e;
+  text-align: center;
+  width: 100%;
+}
+.bottom-container{
+  margin: 2% auto;
+}
+
+.p-footer{
+  margin: 0 auto;
+  padding: 1% auto 0 auto;
+  color: white;
+}
+
+.img-footer{
+  width: 30px;
+
+}
+
+#description-section{
+  padding-top: 3%;
+}
+.profile{
+  position: relative;
+  text-align: center;
+  padding: 1.5em 0;
+}
+
+.profile-header {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width:60%;
+  text-align: center;
+}
+.hello-p {
+  display: inline-block;
+  width:60%;
+  margin-top: 0;
+  margin-bottom:0;
+}
+.pic-me{
+  border-radius: 100%;
+  width: 7rem;
+  margin: 1rem auto;
+  display: block;
 
 }
